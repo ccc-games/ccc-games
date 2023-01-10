@@ -13,6 +13,8 @@ export default {
       { hid: 'og:title', name:'og:title', content: 'Chilling Con Carne - Games'},
       { hid: 'og:description', name:'og:description', content: 'Chilling Con Carne official games website. Find informations about our latest games here!'},
       { hid: 'og:image', name:'og:image', content: '/logo.png'},
+      { hid: 'og:url', name:'og:url', content: 'games.chillingconcarne.co'},
+      { hid: 'og:type', name:'og:type', content: 'website'},
 
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
