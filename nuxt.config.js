@@ -10,8 +10,12 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      { hid: 'og:title', name:'og:title', content: 'Chilling Con Carne - Games'},
+      { hid: 'og:description', name:'og:description', content: 'Chilling Con Carne official games website. Find informations about our latest games here!'},
+      { hid: 'og:image', name:'og:image', content: '/logo.png'},
+
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
